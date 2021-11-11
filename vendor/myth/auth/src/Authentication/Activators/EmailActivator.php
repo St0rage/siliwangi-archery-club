@@ -124,7 +124,7 @@ class EmailActivator extends BaseActivator implements ActivatorInterface
         
         <div style="margin-bottom:10px">
         <h4>- Lokasi Latihan Panahan</h4>
-        <span>Lapangan serta kesekretarian tim SAC terletak di Jl. Raya Samarang, Tarogong, Kec.Tarogong Kaler, Kabupaten Garut, Jawa Barat 44151.</span>
+        <span>Lapangan serta kesekretarian tim SAC terletak di Jl. Raya Samarang, Tarogong, Kec.Tarogong Kaler, Kabupaten Garut, Jawa Barat 44151.(dekat pelagio Cafe)</span>
         </div>
         
         <div style="margin-bottom:30px">
