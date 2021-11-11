@@ -32,7 +32,7 @@
                         </label>
                       </form>
                     </div>
-                    <img src="img/<?= user()->user_image; ?>" style="width:178px; height:250px; object-fit: cover;" alt="...">
+                    <img src="img/<?= user()->user_image; ?>" class="img-fluid" style="object-fit: cover; width: 100%; height: 100%" alt="...">
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">

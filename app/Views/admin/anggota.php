@@ -37,13 +37,14 @@
                   <th scope="col">Jenis Kelamin</th>
                   <th scope="col">Alamat</th>
                   <th scope="col">Role</th>
-                  <th scope="col">Status Aktif</th>
+                  <th scope="col">Status Anggota</th>
                 </tr>
               </thead>
               <tbody>
+                <?php $i = 1; ?>
                 <?php foreach ($users as $user) : ?>
                 <tr>
-                  <th scope="row">1</th>
+                  <th scope="row"><?= $i++; ?></th>
                   <td><?= $user->username; ?></td>
                   <td><?= $user->fullname ? $user->fullname : '-'; ?></td>
                   <td><?= $user->email; ?></td>
@@ -51,7 +52,7 @@
                   <td><?= $user->gender ? $user->gender : '-'; ?></td>
                   <td><?= $user->address ? $user->address : '-'; ?></td>
                   <td><?= $user->role; ?></td>
-                  <td><?= $user->active; ?></td>
+                  <td><?= $user->active === '1' ? 'Anggota resmi' : 'Anggota belum resmi' ; ?></td>
                 </tr>
                 <?php endforeach; ?>
               </tbody>
