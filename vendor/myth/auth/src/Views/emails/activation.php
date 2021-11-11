@@ -1,8 +1,4 @@
 
-<p>KODE VERIFIKASI</p>
+<h1>Siliwangi Archery Club</h1>
 
-<h1>DIBAWAH</h1>
-
-<br>
-
-<p>If you did not registered on this website, you can safely ignore this email.</p>
+<h2>Cetak & isi formulir pendaftaran serta lakukan registrasi di lokasi (alamat lapang) dengan admin SAC sesuai dengan kategori yang di pilih</h2>

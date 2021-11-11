@@ -124,7 +124,7 @@ class EmailActivator extends BaseActivator implements ActivatorInterface
         
         <div style="margin-bottom:10px">
         <h4>- Lokasi Latihan Panahan</h4>
-        <span style="text-decoration:underline;">Lapangan Panahan Sor Kerkof</span>
+        <span>Lapangan serta kesekretarian tim SAC terletak di Jl. Raya Samarang, Tarogong, Kec.Tarogong Kaler, Kabupaten Garut, Jawa Barat 44151.</span>
         </div>
         
         <div style="margin-bottom:30px">
@@ -140,25 +140,25 @@ class EmailActivator extends BaseActivator implements ActivatorInterface
             <th>1</th>
             <th>Kamis</th>
             <th>15.00 WIB</th>
-            <th>Lap. Panahan Kerkof</th>
+            <th>Lapangan tim SAC</th>
         </tr>
         <tr>
             <th>2</th>
             <th>Jumat</th>
             <th>13.30 WIB</th>
-            <th>Lap. Panahan Kerkof</th>
+            <th>Lapangan tim SAC</th>
         </tr>
         <tr>
             <th>3</th>
             <th>Sabtu</th>
             <th>12.30 WIB</th>
-            <th>Lap. Panahan Kerkof</th>
+            <th>Lapangan tim SAC</th>
         </tr>
         <tr>
             <th>4</th>
             <th>Minggu</th>
             <th>12.30 WIB</th>
-            <th>Lap. Panahan Kerkof</th>
+            <th>Lapangan tim SAC</th>
         </tr>
         </table>
         </div>
