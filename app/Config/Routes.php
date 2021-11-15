@@ -31,7 +31,75 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'User::index');
+$routes->get('/', function() {
+    return view('home/index');
+});
+$routes->get('/profile/sejarah', function() {
+    return view('home/profile/sejarah');
+});
+$routes->get('/profile/kepengurusan', function() {
+    return view('home/profile/kepengurusan');
+});
+$routes->get('/profile/galeri', function() {
+    return view('home/profile/galeri');
+});
+$routes->get('/infojadwal', function() {
+    return view('home/jadwal');
+});
+$routes->get('/materi/teknikdasar', function() {
+    return view('home/materi/teknik');
+});
+$routes->get('/materi/aturan', function() {
+    return view('home/materi/aturan');
+});
+$routes->get('/materi/point', function() {
+    return view('home/materi/point');
+});
+$routes->get('/faq', function() {
+    return view('home/faq');
+});
+$routes->get('/alat', function() {
+    return view('home/alat');
+});
+$routes->get('/alat/busur', function() {
+    return view('home/alat/busur');
+});
+$routes->get('/alat/anakpanah', function() {
+    return view('home/alat/anak-panah');
+});
+$routes->get('/alat/fingertab', function() {
+    return view('home/alat/finger-tab');
+});
+$routes->get('/alat/puller', function() {
+    return view('home/alat/puller');
+});
+$routes->get('/alat/stabilizator', function() {
+    return view('home/alat/stabilizator');
+});
+$routes->get('/alat/string', function() {
+    return view('home/alat/string');
+});
+$routes->get('/alat/visir', function() {
+    return view('home/alat/visir');
+});
+$routes->get('/alat/chest', function() {
+    return view('home/alat/chest-guard');
+});
+$routes->get('/alat/arm', function() {
+    return view('home/alat/arm-guard');
+});
+$routes->get('/alat/quiver', function() {
+    return view('home/alat/quiver');
+});
+$routes->get('/alat/bow', function() {
+    return view('home/alat/bow-stand');
+});
+$routes->get('/alat/clicker', function() {
+    return view('home/alat/clicker');
+});
+
+
+
 
 $routes->get('/admin', 'Admin::index', ['filter' => 'role:admin']);
 $routes->get('/admin/index', 'Admin::index', ['filter' => 'role:admin']);
